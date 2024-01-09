@@ -447,6 +447,8 @@ a {
         flex-direction: row;
         flex-wrap: wrap;
         gap: 24px;
+        margin-bottom: 24px;
+        /* Додатковий відступ між стрічками вниз */
     }
 }
 
