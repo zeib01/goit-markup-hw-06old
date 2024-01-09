@@ -659,6 +659,7 @@ a {
 .footer-box {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center
 }
 
 @media screen and (min-width: 768px) {
@@ -850,6 +851,7 @@ a {
 
 .footer-input {
     width: 100%;
+    min-width: 288px;
     height: 40px;
     border-radius: 4px;
     border: 1px solid #FFF;
@@ -1078,6 +1080,7 @@ a {
 .modal {
     width: 288px;
     min-height: 623px;
+    padding: 72px 16px 16px 16px;
 
     position: absolute;
     top: 50%;
@@ -1097,6 +1100,7 @@ a {
     .modal {
         width: 408px;
         min-height: 584px;
+        padding: 72px 25px 25px 23px;
     }
 }
 
@@ -1171,7 +1175,9 @@ a {
 }
 
 
-.form-field {}
+.form-field {
+    position: relative;
+}
 
 .form-input {
     height: 40px;
