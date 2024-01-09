@@ -432,30 +432,25 @@ a {
     letter-spacing: 0.72px;
     text-transform: capitalize;
     color: #2e2f42;
-    margin-bottom: 72px;
 }
 
 .aside-list {
     display: flex;
     flex-direction: column;
-    gap: 72px;
     justify-content: center;
+    margin-bottom: 72px;
 }
 
 @media screen and (min-width: 768px) {
     .aside-list {
-        display: flex;
         flex-direction: row;
-        align-items: flex-start;
         flex-wrap: wrap;
+        gap: 24px;
     }
 }
 
 @media screen and (min-width: 1158px) {
-    .aside-list {
-        display: flex;
-        gap: 24px;
-    }
+    .aside-list {}
 }
 
 .back-color {
@@ -465,6 +460,12 @@ a {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
         0px 1px 1px rgba(46, 47, 66, 0.16),
         0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
+@media screen and (min-width: 768px) {
+    .back-color {
+        margin: 0;
+    }
 }
 
 @media screen and (min-width: 1158px) {
