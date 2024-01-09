@@ -438,11 +438,12 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-bottom: 72px;
+    gap: 72px;
 }
 
 @media screen and (min-width: 768px) {
     .aside-list {
+        display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         gap: 24px;
